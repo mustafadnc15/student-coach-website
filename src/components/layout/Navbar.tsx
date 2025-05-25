@@ -84,9 +84,13 @@ export const Navbar: React.FC = () => {
                 </Link>
               ))}
               <div className="pt-2">
-                <Button href="/contact" className="w-full">
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center justify-center font-semibold rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500 px-4 py-2 text-base w-full"
+                  onClick={() => setIsMenuOpen(false)}
+                >
                   Başlayın
-                </Button>
+                </Link>
               </div>
             </div>
           </div>
