@@ -49,7 +49,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({ testimonial }) => {
       </div>
       
       <p className="text-gray-700 mb-4 leading-relaxed">
-        "{testimonial.review}"
+        &ldquo;{testimonial.review}&rdquo;
       </p>
       
       {testimonial.gradeImprovement && (

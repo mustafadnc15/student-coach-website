@@ -1,6 +1,5 @@
 import { Button } from '@/components/ui/Button';
 import { coaches } from '@/data/coaches';
-import Image from 'next/image';
 
 export const metadata = {
   title: 'Hakkımızda | Öğrenci Koçluk Merkezi',

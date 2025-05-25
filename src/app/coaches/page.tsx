@@ -1,6 +1,5 @@
 import { coaches } from '@/data/coaches';
 import { Button } from '@/components/ui/Button';
-import { CoachCard } from '@/components/home/CoachCard';
 import { Coach } from '@/types';
 
 interface CoachDetailCardProps {

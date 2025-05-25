@@ -26,7 +26,7 @@ export const TestimonialCard: React.FC<TestimonialCardProps> = ({ testimonial })
       </div>
       
       <blockquote className="text-gray-700 mb-4 flex-grow">
-        "{testimonial.review}"
+        &ldquo;{testimonial.review}&rdquo;
       </blockquote>
       
       <div className="border-t pt-4">
